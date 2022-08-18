@@ -1,0 +1,88 @@
+.App{
+  text-align: -webkit-center;
+  margin-top: 150px;
+}
+
+.left{
+  text-align: left;
+}
+
+.logo{
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 52px;
+  height: 16px;
+  text-align: left;
+}
+
+.screen{
+  width: 205px;
+  height: 54px;
+  /* UI Properties */
+  text-align: right;
+  font: normal normal 300 46px/55px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #EDEDEE;
+  opacity: 1;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.unevengrid{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.button{
+  width: 58px;
+  height: 49px;
+  /* UI Properties */
+  background: #7C7A80 0% 0% no-repeat padding-box;
+  border: 1px solid #514F55;
+  opacity: 1;
+  font: normal normal bold 20px/25px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #EAEAEB;
+  opacity: 1;
+}
+
+.disabled{
+  cursor: not-allowed;
+}
+
+.greybutton{
+  background: #5E5E64 0% 0% no-repeat padding-box !important;
+}
+
+.redbutton{
+  background: #91162F 0% 0% no-repeat padding-box;
+}
+
+.leftrounddoublebutton{
+  height: 49px;
+  /* UI Properties */
+  background: #7C7A80 0% 0% no-repeat padding-box;
+  border: 1px solid #514F55;
+  opacity: 1;
+  font: normal normal bold 20px/25px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #EAEAEB;
+  opacity: 1;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.rightroundredbutton{
+  width: 58px;
+  height: 49px;
+  /* UI Properties */
+  background: #91162F 0% 0% no-repeat padding-box;
+  border: 1px solid #514F55;
+  opacity: 1;
+  font: normal normal bold 20px/25px Helvetica Neue;
+  letter-spacing: 0px;
+  color: #EAEAEB;
+  opacity: 1;
+  border-radius: 0px 0px 10px 0px;
+}
